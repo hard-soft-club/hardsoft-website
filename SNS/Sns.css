@@ -86,7 +86,7 @@
         background-color:  #007bff;
         color: white;
         border-radius: 20px;
-        box-shadow: 0 5px 0 rgb(0, 120, 160); /*deepskyblueの透明度を0.7*/
+        box-shadow: 0 5px 0 #0053ab; /*deepskyblueの透明度を0.7*/
         text-decoration: none;
     }
 }
