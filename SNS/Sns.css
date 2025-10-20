@@ -83,9 +83,10 @@
         height: 200px;
     }
     .SnsIntroduction a {
-        background-color: #007bff;
+        background-color:  #007bff;
         color: white;
         border-radius: 20px;
+        box-shadow: 0 5px 0 rgb(0, 120, 160); /*deepskyblueの透明度を0.7*/
         text-decoration: none;
     }
 }
@@ -94,10 +95,14 @@
     .SnsIntroduction:hover {
         transform: translateY(-5px);
         box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+        
     }
-    .SnsIntroduction a:hover {
-        background-color: rgb(59, 96, 206);
+    .SnsIntroduction a:active{
+        box-shadow: none;
+        transform: translateY(5px);
+
     }
+
 
 }
 /*横幅が790px以下になった時に適用するスタイル。ここではレイアウトとappearanceの区分はない*/
