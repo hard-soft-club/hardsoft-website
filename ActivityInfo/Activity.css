@@ -247,10 +247,6 @@
         box-shadow: 0 5px 0 rgb(0, 120, 160); /*deepskyblueの透明度を0.7*/
         text-decoration: none;
     }
-    .SoftCardButton:hover{
-        background-color: rgb(0, 120, 160);
-        box-shadow: 0 5px 0 rgb(0, 85, 114); /*deepskyblueの透明度を0.7*/
-    }
     .SoftCardButton:active{
         box-shadow: none;
         transform: translateY(5px);
