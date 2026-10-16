@@ -1,4 +1,5 @@
-﻿/*ユーザーエージェントスタイルシートを統一するスタイルシートをlayerとして読み込んでいる、*/
+﻿@charset "UTF-8";
+/*ユーザーエージェントスタイルシートを統一するスタイルシートをlayerとして読み込んでいる、*/
 @import url("../CommonFiles/Normalize.css") layer(normalize);
 /*webページ全体で共通するスタイルをレイヤーとして読み込んでいる*/
 @import url("../CommonFiles/Standard.css") layer(standard);
@@ -253,6 +254,9 @@
     }
     .SoftCardImg{
         width:250px;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
         border:1px solid black;
         outline: 5px solid white;
         border-radius: 8px 8px;
@@ -286,6 +290,9 @@
     }
     .HardCardImg{
         width:250px;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
         border:1px solid white;
         outline: 5px solid black;
         border-radius: 8px 8px;
